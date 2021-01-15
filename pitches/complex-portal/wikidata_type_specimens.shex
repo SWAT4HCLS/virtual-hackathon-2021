@@ -1,0 +1,120 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX schema: <http://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX cc: <http://creativecommons.org/ns#>
+PREFIX data: <https://www.wikidata.org/wiki/Special:EntityData/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/>
+PREFIX pqv: <http://www.wikidata.org/prop/qualifier/value/>
+PREFIX pr: <http://www.wikidata.org/prop/reference/>
+PREFIX prn: <http://www.wikidata.org/prop/reference/value-normalized/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX prv: <http://www.wikidata.org/prop/reference/value/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX psn: <http://www.wikidata.org/prop/statement/value-normalized/>
+PREFIX psv: <http://www.wikidata.org/prop/statement/value/>
+PREFIX ref: <http://www.wikidata.org/reference/>
+PREFIX s: <http://www.wikidata.org/entity/statement/>
+PREFIX v: <http://www.wikidata.org/value/>
+PREFIX wdno: <http://www.wikidata.org/prop/novalue/>
+PREFIX wdtn: <http://www.wikidata.org/prop/direct-normalized/>
+PREFIX : <http://weso.es/shapes/>
+
+:Q22325163
+{
+   skos:prefLabel  rdf:langString  +;                          # 100.0 %
+            # 83.33333333333334 % obj: rdf:langString. Cardinality: {1}
+            # 16.666666666666664 % obj: rdf:langString. Cardinality: {2}
+   rdfs:label  rdf:langString  +;                              # 100.0 %
+            # 83.33333333333334 % obj: rdf:langString. Cardinality: {1}
+            # 16.666666666666664 % obj: rdf:langString. Cardinality: {2}
+   wdt:P31  [wd:Q22325163]  ;                                  # 100.0 %
+   rdf:type  IRI  ;                                            # 100.0 %
+   (
+   wdt:P527  IRI
+      |
+   wdt:P527  @:Q22325163
+   )  +;                                                       # 100.0 %
+            # 16.666666666666664 % obj: @:Q22325163. Cardinality: {1}
+   schema:name  rdf:langString  +;                             # 100.0 %
+            # 83.33333333333334 % obj: rdf:langString. Cardinality: {1}
+            # 16.666666666666664 % obj: rdf:langString. Cardinality: {2}
+   schema:description  rdf:langString  +;                      # 100.0 %
+            # 91.66666666666666 % obj: rdf:langString. Cardinality: {1}
+            # 8.333333333333332 % obj: rdf:langString. Cardinality: {2}
+   wdt:P7718  xsd:string  ;                                    # 100.0 %
+   wdt:P703  IRI  ;                                            # 100.0 %
+   skos:altLabel  rdf:langString  *
+            # 58.333333333333336 % obj: rdf:langString. Cardinality: +
+            # 50.0 % obj: rdf:langString. Cardinality: {1}
+            # 8.333333333333332 % obj: rdf:langString. Cardinality: {2}
+}
+
+
+:Q420927
+{
+   schema:name  rdf:langString  +;                             # 100.0 %
+            # 80.0 % obj: rdf:langString. Cardinality: {1}
+            # 20.0 % obj: rdf:langString. Cardinality: {2}
+   rdf:type  IRI  ;                                            # 100.0 %
+   wdt:P7718  xsd:string  ;                                    # 100.0 %
+   skos:prefLabel  rdf:langString  +;                          # 100.0 %
+            # 80.0 % obj: rdf:langString. Cardinality: {1}
+            # 20.0 % obj: rdf:langString. Cardinality: {2}
+   rdfs:label  rdf:langString  +;                              # 100.0 %
+            # 80.0 % obj: rdf:langString. Cardinality: {1}
+            # 20.0 % obj: rdf:langString. Cardinality: {2}
+   wdt:P31  [wd:Q420927]  ;                                    # 100.0 %
+   schema:description  rdf:langString  ;                       # 100.0 %
+   wdt:P703  IRI  ;                                            # 100.0 %
+   wdt:P3937  xsd:string  *;
+            # 90.0 % obj: xsd:string. Cardinality: {1}
+   wdt:P2888  IRI  *;
+            # 90.0 % obj: IRI. Cardinality: {1}
+   wdt:P527  IRI  *;
+            # 90.0 % obj: IRI. Cardinality: +
+            # 50.0 % obj: IRI. Cardinality: {2}
+            # 20.0 % obj: IRI. Cardinality: {3}
+            # 10.0 % obj: IRI. Cardinality: {6}
+            # 10.0 % obj: IRI. Cardinality: {14}
+   wdt:P361  IRI  *;
+            # 90.0 % obj: IRI. Cardinality: +
+            # 30.0 % obj: IRI. Cardinality: {3}
+            # 20.0 % obj: IRI. Cardinality: {2}
+            # 20.0 % obj: IRI. Cardinality: {4}
+            # 10.0 % obj: IRI. Cardinality: {1}
+            # 10.0 % obj: IRI. Cardinality: {8}
+   skos:altLabel  rdf:langString  *;
+            # 60.0 % obj: rdf:langString. Cardinality: +
+            # 40.0 % obj: rdf:langString. Cardinality: {1}
+            # 10.0 % obj: rdf:langString. Cardinality: {3}
+            # 10.0 % obj: rdf:langString. Cardinality: {2}
+   wdt:P681  IRI  *
+            # 10.0 % obj: IRI. Cardinality: {1}
+}
+
+
+:Q78154500
+{
+   skos:altLabel  rdf:langString  {2};                         # 100.0 %
+   wdt:P527  IRI  {5};                                         # 100.0 %
+   skos:prefLabel  rdf:langString  ;                           # 100.0 %
+   schema:name  rdf:langString  ;                              # 100.0 %
+   wdt:P279  IRI  ;                                            # 100.0 %
+   rdfs:label  rdf:langString  ;                               # 100.0 %
+   schema:description  rdf:langString  ;                       # 100.0 %
+   wdt:P7718  xsd:string  ;                                    # 100.0 %
+   wdt:P703  IRI  ;                                            # 100.0 %
+   rdf:type  IRI  ;                                            # 100.0 %
+   wdt:P31  [wd:Q78154500]                                     # 100.0 %
+}
+
+
